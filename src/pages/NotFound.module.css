@@ -1,0 +1,16 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found h1,
+.not-found h3 {
+  margin: 0.25rem;
+  color: white;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+}

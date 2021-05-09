@@ -1,0 +1,31 @@
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  margin: 0.5rem;
+  padding: 0.25rem 2rem;
+  color: white;
+  background-color: #9e3005;
+  border: 1px solid #9e3005;
+  border-radius: 20px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5f1d02;
+  border: 1px solid #5f1d02;
+}
+
+.actions button.cancel {
+  color: #9e3005;
+  background-color: white;
+}
+
+.actions button.cancel:hover,
+.actions button.cancel:active {
+  color: white;
+  background-color: #9e3005;
+}

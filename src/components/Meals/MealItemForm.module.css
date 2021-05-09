@@ -1,0 +1,24 @@
+.meal-item-form {
+  text-align: right;
+}
+
+.control input {
+  margin: 0 0.25rem;
+}
+
+.meal-item-form button {
+  font: inherit;
+  cursor: pointer;
+  margin: 0.25rem 0;
+  padding: 0.25rem 1.75rem;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  border-radius: 20px;
+}
+
+.meal-item-form button:hover,
+.meal-item-form button:active {
+  background-color: #471704;
+  border: 1px solid #471704;
+}

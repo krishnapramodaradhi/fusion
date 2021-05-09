@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #8a2b06;
+  width: 100%;
+  height: 5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  color: white;
+  align-items: center;
+  z-index: 10;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
+.logout {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #471704;
+  background-color: #471704;
+  border-radius: 20px;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.main-image {
+  width: 100%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+}
